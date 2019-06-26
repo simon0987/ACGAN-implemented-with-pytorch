@@ -4,7 +4,7 @@
 	1. Download the **preprocessed Cartoon Set** and other resources from:
 	[https://miulab.myds.me:5001/sharing/S8QcGrvzt]()
 	2. The dataset is preprocessed from `cartoonset100k.tgz`, licenesed by Google LLC
-	3. Using the origin dataset is allowed:[https://google.github.io/cartoonset/download.html]()
+	3. Using the origin dataset is allowed:[https://google.github.io/cartoonset/download.html]()<br>
 	**Note:** the original images are **500 * 500, RGBA**
 
 - Preprocessed Cartoon set
@@ -31,7 +31,11 @@
 	![](./image/task7.png)
 	
 ## How to train :
-run `python3 gangangan.py --testing file [your testing file] --data_dir [the training image's directory] --label_txt [specify the path to 'cartoon_attr.txt'] --output_dir [the directory to output your generarted images] --model_dir [the directory to output your training checkpoint]`
+run `python3 gangangan.py --testing file [your testing file] 
+--data_dir [the training image's directory] 
+--label_txt [specify the path to 'cartoon_attr.txt'] 
+--output_dir [the directory to output your generarted images] 
+--model_dir [the directory to output your training checkpoint]`
 
 
 
