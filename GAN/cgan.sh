@@ -1,0 +1,1 @@
+python3 gangangan.py --test --testing_file $1 --best_ckpt_path ./checkpoint/model.pkl.1274 --output_dir $2
